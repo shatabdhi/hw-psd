@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family:Open Sans;
+}
+.Container{
+    width:1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center
+  { align-items: center;}
+
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+    }
+nav .Menu{
+    width: 60%;
+    text-align: right;
+}
+
+nav .Menu ul li {
+    display: inline-block;
+}
+nav .Menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: block;
+}
